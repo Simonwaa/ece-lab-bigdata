@@ -41,6 +41,7 @@ models:
                 field: user_id
       - name: quantity
         data_tests:
+          - positive_value
           - accepted_values:
               arguments:
                 values: [1, 2, 3, 4, 5]
